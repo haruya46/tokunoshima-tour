@@ -1,0 +1,60 @@
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+  *{box-sizing: border-box;}
+    .lesson {
+      width: 50%;
+    }
+
+    footer {
+      text-align: center;
+    }
+
+    .top-wrapper h1 {
+      font-size: 32px;
+    }
+
+    .heading h2 {
+      font-size: 20px;
+    }
+  }
+
+  /* スマホ向けレイアウト */
+  @media all and (max-width: 670px) {
+    *{box-sizing: border-box;}
+    .lesson {
+      width:100%;
+    }
+
+    .btn {
+      width: 100%;
+    }
+
+    .facebook {
+      margin-bottom: 10px;
+    }
+
+    .top-wrapper {
+      padding: 180px 0 100px 0;
+      background-image: url(../img/inthesea.jpg);
+      background-size: cover;
+      color: rgb(98, 0, 255);
+      text-align: center;
+    }
+
+    /* menu-iconクラスのdisplayをblockに指定してください  */
+    .menu-icon{
+      display:block;
+    }
+
+    .top-wrapper h1 {
+      font-size: 20px;
+      color: rgb(255, 72, 0);
+    }
+    .container-a p{
+      color: rgb(255, 255, 255);
+    }
+
+    .top-wrapper p {
+      font-size: 14px;
+    }
+  }
